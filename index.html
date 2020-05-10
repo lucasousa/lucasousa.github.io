@@ -5,23 +5,28 @@
 	<title>Lucas Sousa</title>
 	<link rel="stylesheet" type="text/css" href="static/css/bulma.css">
 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="stylesheet" href="static/fontawesome/css/all.min.css">
 </head>
 
 <body>
+	<!--<figure class="image">
+        <img src="static/img/undraw_developer_activity_bv83.png" alt="foto menu" id="menu-photo">
+    </figure> -->
 	<section class="hero is-medium is-bold">
 	    <div class="hero-head">
-	        <nav class="navbar has-background-dark is-link is-fixed-top">
+	        <nav class="navbar has-background-white is-fixed-top">
 	            <div class="navbar-brand">
-	                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-	                    <span></span>
-	                    <span></span>
-	                    <span></span>
+		        	<a class="navbar-item" href="./">
+	                    <i class="fas fa-code"></i> &nbsp; <img alt="Logo" src="static/img/teste.png" id="name-lucas-photo">
+	                </a>
+	                <div class="navbar-burger burger has-text-black has-addons-centered" data-target="navbarExampleTransparentExample">	
+	                    <i class="icon-menu-burguer fas fa-bars"></i>
 	                </div>
 	            </div>
 
 	            <div id="navbarExampleTransparentExample" class="navbar-menu">
 	                <div class="navbar-end">
-	                    <a class="navbar-item" href="{% url 'website:index' %}">
+	                    <a class="navbar-item" href="#">
 	                        <span class="icon">
 	                            <i class="fas fa-home"></i>
 	                        </span>
@@ -33,19 +38,19 @@
 	                        </span>
 	                        <span>Sobre Lucas</span>
 	                    </a>
-	                    <a class="navbar-item" href="{% url 'website:list_notices' %}">
+	                    <a class="navbar-item" href="#">
 	                        <span class="icon">
 	                            <i class="fas fa-file-alt"></i>
 	                        </span>
 	                        <span>Experiências</span>
 	                    </a>
-	                    <a class="navbar-item" href="{% url 'website:list_products' %}">
+	                    <a class="navbar-item" href="#">
 	                        <span class="icon">
 	                            <i class="fas fa-box-open"></i>
 	                        </span>
 	                        <span>Trabalhos</span>
 	                    </a>
-	                    <a class="navbar-item" href="/#contact">
+	                    <a class="navbar-item" href="#">
 	                        <span class="icon">
 	                            <i class="fas fa-envelope"></i>
 	                        </span>
@@ -54,26 +59,95 @@
 	                </div>
 	            </div>
 	        </nav>
-	    </div>
+	    </div>	    
 	</section>
 	
+	<section class="hero ">
+		<div class="container">
+			<figure class="image-lucas">
+				<img src="static/img/lucas.jpg" alt="imagem do lucas sousa">
+			</figure>
+			<div class="has-text-centered social-medias">
+				<i class="fab fa-instagram-square fa-2x"></i>
+				<i class="fab fa-telegram fa-2x"></i>
+				<i class="fab fa-github-square fa-2x"></i>
+			</div>
+			<br>
+		</div>
+		<div class="container-text">
+			<p>
+				"<i>Hi, ladies and gentlemen rsrsrs</i>. Sou Lucas Sousa, bacharelando em Sistemas de Informação na Universidade Federal do Piauí - UFPI, desenvolvedor web fullstack (iniciante) e pesquisador na área de <i>cloud computing</i> com ênfase em <i>multiple cloud</i>, sendo membro do Laboratório de Pesquisas Aplicadas a Sistemas Distribuídos - PASID. Quando ingressei no curso, já no primeiro período, em um minicurso, tive contato com o desenvolvimento voltado a plataformas web (foi amor a primeira vista, mesmo sendo só HTML5 e CSS3 rsrsrs) e a partir de então, venho me aprofundando na área, desenvolvendo tanto o front-end, quanto o back-end de aplicações/sistemas. <br>
+				Durante a minha vida acadêmica, que se encontra em andamento, pude aproveitar diversas oportunidades, tais como: 2 participações em projeto de monitoria, participação em minicursos, eventos entre outros, sempre com a intenção de aproveitar diversidade de áreas, a relação e o networks com pessoas, com o intuito de extrair e repassar o máximo de conhecimento.
+				"
+			</p>
+		</div> 
+	
+	</section>
 
-	<footer class="footer has-background-black" style="bottom:0px !important;">
+	<section class="hero">
+		<div class="container has-text-centered space-top-title">
+            <h1 class="title has-text-black">Meus Trabalhos</h1>
+        </div>
+		<div class="container">
+			<div class="columns is-multiline">
+				<div class="column is-2">
+	   				<div class="card container-work">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img class="image-work" src="static/img/novoestilo.png">
+                            </figure>
+                        </div>
+                        <div class="box has-text-centered has-background-white-ter">
+                        	<a class="" href="#">
+		                        <span class="icon">
+		                            <i class="fas fa-eye"></i>
+		                        </span>
+		                        <span>Visualizar</span>
+		                    </a>
+                        </div>
+                    </div>
+				</div>
+
+				<div class="column is-2">
+	   				<div class="card container-work">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img class="image-work" src="static/img/barbeariaalencar.png">
+                            </figure>
+                        </div>
+                        <div class="box has-text-centered has-background-white-ter">
+                        	<a class="" href="#">
+		                        <span class="icon">
+		                            <i class="fas fa-eye"></i>
+		                        </span>
+		                        <span>Visualizar</span>
+		                    </a>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer" style="margin-top: 600px;">
         <div class="container">
             <div class="content has-text-centered">
                 <div>
-                    <a href="https://github.com/lucasousa"><i class="fab fa-github-alt fa-2x"></i></a> 
+                    <a href="https://github.com/lucasousa" class="has-text-dark"><i class="fab fa-github-alt fa-2x"></i></a> 
                 </div>
-                <div class="has-text-centered has-text-light">
-                    &copy; 2020 - Desenvolvido por <span class="icon is-small has-text-danger">
+                <div class="has-text-centered">
+                    &copy; 2020 - Desenvolvido por <span class="icon is-small has-text-link">
                         <i class="fas fa-heart" aria-hidden="true"></i>
-                    </span> <a href="https://www.instagram.com/lucasousa54/" target="_blank">Lucas Sousa</a>
+                    </span> <a href="https://www.instagram.com/lucasousa54/" target="_blank" class="has-text-dark">Lucas Sousa</a>
                     </br>
-                    Icons - <a href="https://fontawesome.com/" target="_blank">FontAwesome</a>
+                    Icons - <a href="https://fontawesome.com/" class="has-text-dark" target="_blank">FontAwesome</a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="static/javascript/funcoes.js"></script>	
 </body>
 
 </html>

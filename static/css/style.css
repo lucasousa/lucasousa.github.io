@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  border-bottom: 1px solid #E2E2E2;
+  /*margin-top: 30px;*/
+}
+
+.footer{
+  border-top: 1px solid #E2E2E2; 
+  background-color: hsl(0, 0%, 86%);
+}
+
+.icon-menu-burguer{
+  margin-top: 1rem; 
+  margin-left: 1rem;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+}
+
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  #menu-photo{
+    padding-top: 20px;
+  }
+}
+
+/*Tablet*/
+@media screen and (max-width: 1023px) {
+
+}
+
+.image-lucas{
+  height: 200px;
+  width: 200px;
+  margin-top: 120px;
+}
+
+.social-medias{
+  padding-top: 20px;
+}
+
+.social-medias i{
+  padding: 3px;
+}
+
+.container-text{
+  margin: 30px;
+  text-align: justify;
+}
+
+.space-title{
+  margin-top: 30px;
+}
+
+
+.container-work{
+  border-radius: 15px !important;
+}
+.image-work{
+  max-width: 100%;
+  object-fit: cover !important;
+  width: 325% !important;
+  height: 300px !important;
+  border-radius: 15px !important;
+}
