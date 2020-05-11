@@ -63,7 +63,7 @@ body {
 }
 
 .container-work {
-    border-radius: 15px !important;
+    border-radius: 30px !important;
 }
 
 .image-work {
@@ -71,7 +71,7 @@ body {
     object-fit: cover !important;
     width: 325% !important;
     height: 300px !important;
-    border-radius: 15px !important;
+    border-radius: 30px !important;
 }
 
 .info-rodape {
