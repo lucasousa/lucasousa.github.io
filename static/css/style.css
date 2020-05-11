@@ -15,7 +15,15 @@ body{
   #menu-photo{
     padding-top: 20px;
   }
-  .navbar{
+  
+}
+
+/*Tablet*/
+@media screen and (max-width: 1023px) {
+
+}
+
+.navbar{
     border-bottom: 1px solid #E2E2E2;
     /*margin-top: 30px;*/
   }
@@ -61,10 +69,4 @@ body{
     height: 200px !important;
     border-radius: 15px !important;
   }
-}
-
-/*Tablet*/
-@media screen and (max-width: 1023px) {
-
-}
 
