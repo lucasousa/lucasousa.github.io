@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -23,8 +25,9 @@ body {
 @media screen and (max-width: 1023px) {}
 
 .navbar {
+    border-top: 1px solid #E2E2E2;
     border-bottom: 1px solid #E2E2E2;
-    /*margin-top: 30px;*/
+    margin-top: 30px;
 }
 
 .footer {
@@ -63,15 +66,15 @@ body {
 }
 
 .container-work {
-    border-radius: 30px !important;
+    border-radius: 10px !important;
 }
 
 .image-work {
     max-width: 100%;
     object-fit: cover !important;
-    width: 325% !important;
-    height: 300px !important;
-    border-radius: 30px !important;
+    width: 250% !important;
+    height: 250px !important;
+    border-radius: 5px !important;
 }
 
 .info-rodape {
@@ -83,4 +86,14 @@ body {
 .works{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.info-lucas{
+    font-family: 'Jura', sans-serif;
+    font-size: 10pt;
+}
+
+.biograph{
+    font-family: 'Jura', sans-serif;
+    font-size: 8pt;
 }
