@@ -176,6 +176,24 @@
         </div>
     </footer>
     <script type="text/javascript" src="static/javascript/funcoes.js"></script>	
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <script language="javascript">
+		jQuery(function () {
+			jQuery(window).scroll(function () {
+		  		if (jQuery(this).scrollTop() > 380) {
+		  			$(".navbar").addClass('is-fixed-top');
+		  			$(".navbar").css('margin-top', '0px');
+		  		}
+		  		else{
+		  			$(".navbar").removeClass('is-fixed-top');	
+		  			$(".navbar").css('margin-top', '30px');
+		  		}
+			});
+		});
+	</script>
+
 </body>
 
 </html>
