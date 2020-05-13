@@ -41,8 +41,8 @@ body {
 }
 
 .image-lucas {
-    height: 200px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
     margin-top: 120px;
     margin-bottom: 1rem;
     -webkit-transition: all .1s ease-in-out;
@@ -121,4 +121,9 @@ body {
 .image-initial{
     margin-top: 30px;
     margin-bottom:50px;
+}
+
+.name-lucas{
+    font-weight: bold;
+    font-size: 12pt;
 }

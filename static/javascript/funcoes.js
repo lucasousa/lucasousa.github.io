@@ -1,3 +1,5 @@
+// Get that hamburger menu cookin' //
+
 document.addEventListener("DOMContentLoaded", function() {
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(
@@ -43,3 +45,13 @@ function scrollFunction() {
     document.getElementById("toTop").style.display = "none";
   }
 }
+
+// Preloader
+$(document).ready(function($) {
+  $(".preloader-wrapper").fadeOut();
+  $("body").removeClass("preloader-site");
+});
+$(window).on("load", function() {
+  var Body = $("body");
+  Body.addClass("preloader-site");
+});
