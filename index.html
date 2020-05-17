@@ -13,7 +13,7 @@
 <body>
 	<div class="container has-text-centered image-initial">
 		<figure class="image">
-	        <img src="static/img/undraw_developer_activity_bv83.png" alt="foto menu" id="menu-photo">
+	        <img class="image-menu" src="static/img/undraw_web_developer_p3e5.png">
 	    </figure> 	
 	    <br>
 	    <h1 class="title has-text-centered">Contato</h1>
@@ -31,9 +31,9 @@
 	        <nav class="navbar has-background-white is-fixed-top">
 	            <div class="navbar-brand">
 		        	<a class="navbar-item" href="./">
-	                    <i class="fas fa-code"></i> &nbsp;
+	                    <i class="fas fa-code"></i> &nbsp; <h1 id="title-logo">Lucas Sousa</h1>
 	                </a>
-	                <div class="navbar-burger burger has-text-black has-addons-centered" data-target="navbarExampleTransparentExample">	
+	                <div class="navbar-burger burger has-text-black" data-target="navbarExampleTransparentExample">	
 	                    <i class="icon-menu-burguer fas fa-bars"></i>
 	                </div>
 	            </div>
@@ -75,11 +75,14 @@
 			<figure class="image image-lucas">
 				<img class="is-rounded" src="static/img/lucas.jpg" alt="imagem do lucas sousa">
 			</figure>
-			<p class="info-lucas">
-				<span class="has-text-danger"><i class="fas fa-map-marker-alt"></span></i> Novo Oriente do Piauí, Brasil. <br>
-				<span class="has-text-danger"><i class="fas fa-calendar-alt"></i></span> 06/10/1999.
-			</p>
 
+		</div>
+		<div class="container">
+			<p class="info-lucas">
+				<span class="has-text-danger"><i class="fas fa-graduation-cap"></i></span> <span class="has-text-white">Bacharelando em Sistemas de Informação.</span><br>
+				<span class="has-text-danger"><i class="fas fa-thumbtack"></i></span> <span class="has-text-white">Desenvolvedor Web e Pesquisador.</span><br>
+				<span class="has-text-danger"><i class="fas fa-map-marker-alt"></span></i> <span class="has-text-white">Novo Oriente do Piauí, Brasil. </span>
+			</p>
 		</div>
 		<div class="container-text box has-background-light">
 			<p class="info-lucas">
@@ -91,37 +94,42 @@
 		</div> 
 	</section>
 
-	<section class="section-light skills" id="affinity">
+	<section class="section-light skills space-section" id="affinity">
 	   <div class="hero-body">
 	      <div class="columns is-multiline">
 	   		<div class="container">
-		         <div class="column is-12 about-me">
+		         <div class="column is-12 space-title">
 		            <h1 class="title has-text-centered">Afinidades</h1>
 		         </div>
-		         <div
-		            class="column is-6" data-aos="fade-in" data-aos-easing="linear">
-		            <h2>Python</h2>
-		            <progress class="progress is-info" value="50" max="100">45%</progress>
-		            <h2>C</h2>
-		            <progress class="progress is-info" value="50" max="100">60%</progress>
-		            <h2>Visual Studio Code</h2>
-		            <progress class="progress is-info" value="45" max="100">45%</progress>
-		            <h2>HTML 5</h2>
-		            <progress class="progress is-info" value="70" max="100">70%</progress>
-		            <h2>Bulma CSS</h2>
-		            <progress class="progress is-info" value="60" max="80">70%</progress>
-		         </div>
-		         <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
-		            <h2>CSS</h2>
-		            <progress class="progress is-info" value="55" max="100">75%</progress>
+		         <div class="columns has-addons-centered">
+			         <div class="column is-5">
+			            <h2>Python &nbsp;<span class="has-text-danger"><i class="fab fa-python"></i></span></h2>
+			            <progress class="progress is-small is-info" value="35" max="100">35%</progress>
+			            <h2>Linguagem C&nbsp;<span class="has-text-danger"><i class="fas fa-copyright"></i></span></h2>
+			            <progress class="progress is-small is-info" value="40" max="100">40%</progress>
+			            <h2>Git e Github &nbsp;<span class="has-text-danger"><i class="fab fa-github-square"></i></span></h2>
+			            <progress class="progress is-small is-info" value="35" max="100">35%</progress>
+			            <h2>Cloud Computing &nbsp;<span class="has-text-danger"><i class="fas fa-cloud"></i></span></h2>
+			            <progress class="progress is-small is-info" value="10" max="100">10%</progress>
+			         </div>
+			         <div class="column is-5">
+			         	<h2>Django &nbsp;<span class="has-text-danger"><i class="fab fa-python"></i></span></h2>
+			            <progress class="progress is-small is-info" value="15" max="100">15%</progress>
+			            <h2>CSS 3&nbsp;<span class="has-text-danger"><i class="fab fa-css3-alt"></i></span></h2>
+			            <progress class="progress is-small is-info" value="35" max="100">35%</progress>
+			            <h2>HTML 5 &nbsp;<span class="has-text-danger"><i class="fab fa-html5"></i></span></h2>
+			            <progress class="progress is-small is-info" value="60" max="100">60%</progress>
+			            <h2>Bulma CSS &nbsp;<span class="has-text-danger"><i class="fab fa-css3-alt"></i></span></h2>
+			            <progress class="progress is-small is-info" value="50" max="100">50%</progress>
+			         </div>
 		         </div>
 	        </div>
 	   </div>
 	</section>
 
 	<section class="section has-background-white-ter works" id="works">
-		<section class="hero-body">
-			<div class="container has-text-centered space-top-title">
+		<div class="hero-body">
+			<div class="container has-text-centered">
 	            <h1 class="title has-text-black">Meus Trabalhos</h1>
 	        </div>
 			<div class="container" style="padding-top: 50px;">
@@ -163,9 +171,109 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 	</section>
+	<section class="hero is-small space-section" id="site-business">
+		<div class="container has-text-centered space-title">
+            <h1 class="title has-text-black">Precisa de um site Web?</h1>
+        </div>
+    	<ol class="list-content-site">
+	    	<li>
+		        <div class="image-show-business">
+		        	<img src="static/img/undraw_onboarding_o8mv.png">
+		        </div>
+	    	</li>
+	    	<li class="list-text-info-site">
+				<div class="column info-site-business">
+					<p>Quer <span class="has-text-info is-bold title">impulsionar</span> o seu <span class="has-text-info is-bold title">negócio</span><br> e deixa-lo visível para o mundo através da <span class="has-text-info is-bold title">Internet</span> <span class="has-text-danger is-bold title">?</span></p>
+				</div>
+	    	</li>
+    	</ol>
+    	<div class="hero-body">
+		    <div class="container" style="padding-top: 50px;">
+					<div class="columns is-multiline">
 
+						<div class="column is-3">
+			   				<div class="card container-work">
+		                        <div class="card-image">
+		                            <figure class="image">
+		                                <img class="image-service" src="static/img/site_static.png">
+		                            </figure>
+		                        </div>
+		                        <div class="box has-text-centered has-background-info">
+		                        	<div class="content">
+		                                <h4>Site Estático</h4>
+		                                <p class="info-service"> Site informativo, apenas informações estáticas, sem banco de dados etc...</p>
+		                            </div>		                        
+		                        </div>
+		                    </div>
+						</div>
+						<div class="column is-3">
+			   				<div class="card container-work">
+		                        <div class="card-image">
+		                            <figure class="image">
+		                                <img class="image-service" src="static/img/site_dinamic.png">
+		                            </figure>
+		                        </div>
+		                        <div class="box has-text-centered has-background-info">
+		                        	<div class="content">
+		                                <h4>Site Dinâmico</h4>
+		                                <p class="info-service">Site com banco de dados, gerenciavel, com painel para cadastro de informações etc...</p>
+		                            </div>		                        
+		                        </div>
+		                    </div>
+						</div>
+						<div class="column is-3">
+			   				<div class="card container-work">
+		                        <div class="card-image">
+		                            <figure class="image">
+		                                <img class="image-service" src="static/img/responsive.png">
+		                            </figure>
+		                        </div>
+		                        <div class="box has-text-centered has-background-info">
+		                        	<div class="content">
+		                                <h4>Site responsivo</h4>
+		                                <p class="info-service"> Sistema acessível em diferentes dispositivos e tamanhos de telas diferentes.</p>
+		                            </div>		                        
+		                        </div>
+		                    </div>
+						</div>
+						<div class="column is-3">
+			   				<div class="card container-work">
+		                        <div class="card-image">
+		                            <figure class="image">
+		                                <img class="image-service" src="static/img/design.png">
+		                            </figure>
+		                        </div>
+		                        <div class="box has-text-centered has-background-info">
+		                        	<div class="content">
+		                                <h4>Design</h4>
+		                                <p class="info-service">Design moderno e de acordo com suas especificações.</p>
+		                            </div>		                        
+		                        </div>
+		                    </div>
+						</div>
+						<div class="column is-3">
+			   				<div class="card container-work">
+		                        <div class="card-image">
+		                            <figure class="image">
+		                                <img class="image-service" src="static/img/security.png">
+		                            </figure>
+		                        </div>
+		                        <div class="box has-text-centered has-background-info">
+		                        	<div class="content">
+		                                <h4>Segurança</h4>
+		                                <p class="info-service"> Criptografia dos seus dados para serem transmitidos de forma segura (https).</p>
+		                            </div>	                        
+		                        </div>
+		                    </div>
+						</div>
+						
+					</div>
+				</div>
+	    	</div>
+	    </div>
+	</section>
     <footer class="footer has-background-dark">
         <div class="container">
             <div class="content has-text-centered">
@@ -179,6 +287,7 @@
         </div>
     </footer>
     <script type="text/javascript" src="static/javascript/funcoes.js"></script>	
+
 
 </body>
 

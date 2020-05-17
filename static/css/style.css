@@ -1,15 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Monda&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
 
 body {
     margin: 0;
     padding: 0;
 }
 
+#title-logo{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+}
 
 /*Desktop*/
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    .container-text{
+        width: 60%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .container-text p{
+        font-size: 13pt;
+    }
+    .image-initial{
+        margin-top: 40px !important;
+        margin-bottom:50px;
+    }
+    .image-menu{
+        height: 500px !important;
+        width: 800px !important;
+        margin: auto;
+    }
+}
 
 
 /* Mobile */
@@ -18,12 +43,33 @@ body {
     #menu-photo {
         padding-top: 20px;
     }
+    .image-initial{
+        margin-top: 40px !important;
+        margin-bottom:50px;
+    }
+   ol li{
+        padding-left: 20px;
+        padding-right: 20px;
+   }
+   .list-text-info-site{
+        margin-top:-50px !important; 
+   }
+   .info-site-business{
+        font-size: 14pt;
+   }
 }
 
 
 /*Tablet*/
-
-@media screen and (max-width: 1023px) {}
+@media screen and (max-width: 1023px) {
+    #menu-photo {
+        padding-top: 20px;
+    }
+    .image-initial{
+        margin-top: 40px !important;
+        margin-bottom:50px;
+    }
+}
 
 .navbar {
     border-top: 1px solid #E2E2E2;
@@ -93,7 +139,7 @@ body {
 .image-work {
     max-width: 100%;
     object-fit: cover !important;
-    width: 250% !important;
+    width: 100% !important;
     height: 250px !important;
     border-radius: 5px !important;
 }
@@ -119,11 +165,6 @@ body {
     font-size: 8pt;
 }
 
-.image-initial{
-    margin-top: 30px;
-    margin-bottom:50px;
-}
-
 .name-lucas{
     font-weight: bold;
     font-size: 12pt;
@@ -132,4 +173,62 @@ body {
 h1{
     font-family: 'Titillium Web', sans-serif;
     font-size: 16pt !important;
+}
+
+#about-me{
+    background-image: url('../img/2927262.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.info-site-business{
+    font-size: 16pt;
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.space-title{
+    padding-bottom: 40px;
+}
+
+.space-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.burger{
+    transition: 5s !important;
+}
+
+.image-show-business{
+    width: 400px;
+    height: 400px;
+}
+
+ol li{
+    display: inline-block;
+    margin: auto;
+}
+
+.list-content-site{
+    margin: auto;
+}
+
+.image-service{
+    max-width: 100%;
+    width: 80% !important;
+    height: 200px !important;
+    border-radius: 5px !important;
+}
+
+.info-service{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10pt;
+}
+
+h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12pt;
 }
