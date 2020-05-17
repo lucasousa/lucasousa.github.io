@@ -34,6 +34,10 @@ body {
         width: 800px !important;
         margin: auto;
     }
+    .contrast{
+        font-size: 18pt !important;
+        font-weight: bold;
+   }
 }
 
 
@@ -49,13 +53,17 @@ body {
     }
    ol li{
         padding-left: 20px;
-        padding-right: 20px;
+        
    }
    .list-text-info-site{
         margin-top:-50px !important; 
    }
    .info-site-business{
-        font-size: 14pt;
+        font-size: 12pt !important;
+   }
+   .contrast{
+        font-size: 14pt !important;
+        font-weight: bold;
    }
 }
 
