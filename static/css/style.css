@@ -38,6 +38,9 @@ body {
         font-size: 18pt !important;
         font-weight: bold;
    }
+   .info-site-business{
+        margin-top: 100px !important;
+   }
 }
 
 
@@ -51,19 +54,20 @@ body {
         margin-top: 40px !important;
         margin-bottom:50px;
     }
-   ol li{
-        padding-left: 20px;
-        
-   }
    .list-text-info-site{
         margin-top:-50px !important; 
    }
    .info-site-business{
         font-size: 12pt !important;
+        margin-top: -40px !important;
    }
    .contrast{
         font-size: 14pt !important;
         font-weight: bold;
+   }
+   .text-initial{
+        font-size: 10pt;
+        padding: 15px !important;
    }
 }
 
@@ -83,6 +87,7 @@ body {
     border-top: 1px solid #E2E2E2;
     border-bottom: 1px solid #E2E2E2;
 }
+
 
 .footer {
     border-top: 1px solid #E2E2E2;
@@ -215,10 +220,6 @@ h1{
     height: 400px;
 }
 
-ol li{
-    display: inline-block;
-    margin: auto;
-}
 
 .list-content-site{
     margin: auto;
