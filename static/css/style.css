@@ -42,6 +42,10 @@ body {
         margin-top: 100px !important;
 
    }
+   .image-show-business{
+        width: 400px;
+        height: 400px;
+    }
 }
 
 
@@ -69,6 +73,10 @@ body {
    .text-initial{
         font-size: 10pt;
         padding: 15px !important;
+   }
+   .image-show-business{
+        width: 200px;
+        height: 200px;
    }
 }
 
@@ -216,10 +224,6 @@ h1{
     transition: 5s !important;
 }
 
-.image-show-business{
-    width: 400px;
-    height: 400px;
-}
 
 
 .list-content-site{
