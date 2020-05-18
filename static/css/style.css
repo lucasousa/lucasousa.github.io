@@ -40,7 +40,7 @@ body {
    }
    .info-site-business{
         margin-top: 100px !important;
-
+        padding-top: 60px;
    }
    .image-show-business{
         width: 400px;
@@ -63,8 +63,9 @@ body {
         margin-top:-50px !important; 
    }
    .info-site-business{
-        font-size: 12pt !important;
-        margin-top: -40px !important;
+        font-size: 10pt !important;
+        margin-top: 25px !important;
+        padding-left: 20px !important;
    }
    .contrast{
         font-size: 14pt !important;
@@ -73,6 +74,10 @@ body {
    .text-initial{
         font-size: 10pt;
         padding: 15px !important;
+   }
+   .list-text-info-site{
+        width: 70% !important;
+        margin-top: 30px !important;
    }
 }
 
