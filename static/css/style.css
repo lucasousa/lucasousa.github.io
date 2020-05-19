@@ -30,8 +30,8 @@ body {
         margin-bottom:50px;
     }
     .image-menu{
-        height: 500px !important;
-        width: 800px !important;
+        height: 430px !important;
+        width: 550px !important;
         margin: auto;
     }
     .contrast{
@@ -82,6 +82,12 @@ body {
    .content-business{
         width: 80% !important;
    }
+   .text-oferred{
+    font-size: 10pt !important;
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 }
 
 
@@ -215,6 +221,12 @@ h1{
     font-family: 'Titillium Web', sans-serif;
 }
 
+.text-oferred{
+    font-size: 16pt;
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .space-title{
     padding-bottom: 40px;
 }
@@ -249,4 +261,10 @@ h1{
 h4{
     font-family: 'Titillium Web', sans-serif;
     font-size: 12pt;
+}
+
+
+.box-info-service{
+    max-width: 100%;
+    height: 120px !important;
 }
