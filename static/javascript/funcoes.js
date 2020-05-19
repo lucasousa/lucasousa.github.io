@@ -1,5 +1,4 @@
-// Get that hamburger menu cookin' //
-
+// Função para deixar o menu mobile //
 document.addEventListener("DOMContentLoaded", function() {
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(
@@ -20,4 +19,33 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   }
+});
+// fim da função do menu
+
+
+
+
+const menuItems = document.querySelectorAll('a[href^="#"]');
+
+function getScrollTopByHref(element) {
+    const id = element.getAttribute('href');
+    return document.querySelector(id).offsetTop;
+}
+
+function scrollToPosition(to) {
+     window.scroll({
+        top: to,
+        behavior: "smooth",
+     })
+  smoothScrollTo(800, to);
+}
+
+function scrollToIdOnClick(event) {
+    event.preventDefault();
+    const to = getScrollTopByHref(event.currentTarget)- 20;
+    scrollToPosition(to);
+}
+
+menuItems.forEach(item => {
+    item.addEventListener('click', scrollToIdOnClick);
 });
