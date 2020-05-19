@@ -49,3 +49,14 @@ function scrollToIdOnClick(event) {
 menuItems.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
 });
+
+function hideMenuMobile(event){
+    var navBar = document.getElementsByClassName("navbar-menu");
+    for (var navB of navBar) {
+        navB.classList.remove("is-active");
+    }
+}
+
+menuItems.forEach(menuItem => {
+    menuItem.addEventListener('click', hideMenuMobile)
+});
