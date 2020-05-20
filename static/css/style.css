@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Monda&family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
 
+
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +14,6 @@ body {
 }
 
 /*Desktop*/
-
 @media screen and (min-width: 1024px) {
     .container-text{
         width: 60%;
@@ -37,12 +37,12 @@ body {
     .contrast{
         font-size: 18pt !important;
         font-weight: bold;
-   }
+    }
    .info-site-business{
         margin-top: 100px !important;
         padding-top: 60px;
-   }
-   .image-show-business{
+    }
+    .image-show-business{
         width: 400px;
         height: 400px;
     }
@@ -50,7 +50,6 @@ body {
 
 
 /* Mobile */
-
 @media screen and (max-width: 767px) {
     #menu-photo {
         padding-top: 20px;
@@ -59,35 +58,34 @@ body {
         margin-top: 40px !important;
         margin-bottom:50px;
     }
-   .list-text-info-site{
+    .list-text-info-site{
         margin-top:-50px !important; 
-   }
-   .info-site-business{
+    }
+    .info-site-business{
         font-size: 10pt !important;
         margin-top: 25px !important;
         padding-left: 20px !important;
-   }
-   .contrast{
+    }
+    .contrast{
         font-size: 14pt !important;
         font-weight: bold;
-   }
-   .text-initial{
+    }
+    .text-initial{
         font-size: 10pt;
         padding: 15px !important;
-   }
-   .list-text-info-site{
+    }
+    .list-text-info-site{
         width: 90% !important;
         margin-top: 30px !important;
-   }
-   .content-business{
+    }
+    .content-business{
         width: 80% !important;
-   }
-   .text-oferred{
-    font-size: 10pt !important;
-    text-align: justify;
-    font-family: 'Titillium Web', sans-serif;
-}
-
+    }
+    .text-oferred{
+        font-size: 10pt !important;
+        text-align: justify;
+        font-family: 'Titillium Web', sans-serif;
+    }   
 }
 
 
@@ -213,8 +211,6 @@ h1{
     background-repeat: no-repeat;
 }
 
-
-
 .info-site-business{
     font-size: 16pt;
     text-align: justify;
@@ -239,8 +235,6 @@ h1{
 .burger{
     transition: 5s !important;
 }
-
-
 
 .list-content-site{
     margin: auto;
