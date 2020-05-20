@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
+//Funções de animação do Menu
 const menuItems = document.querySelectorAll('a[href^="#"]');
 
 function getScrollTopByHref(element) {
@@ -50,6 +50,9 @@ menuItems.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick);
 });
 
+//fim da animação do menu
+
+//Esconder o menu quando clicar em um link interno
 function hideMenuMobile(event){
     var navBar = document.getElementsByClassName("navbar-menu");
     for (var navB of navBar) {
