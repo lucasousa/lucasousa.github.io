@@ -1,4 +1,4 @@
 # 🎯 My Personal Website 
 
 
-![Icon FastAPI](./.github/home_page.png) 
+![Home Page](./.github/home_page.png) 
