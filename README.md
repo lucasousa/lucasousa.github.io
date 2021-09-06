@@ -1,4 +1,4 @@
 # 🎯 My Personal Website 
 
 
-![Home Page](./.github/home_page.png) 
+![Home Page](.github/images/home_page.png) 
